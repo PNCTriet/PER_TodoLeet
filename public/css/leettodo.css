@@ -1,0 +1,13 @@
+.stats-list-item:hover {
+    transform: scale(1.03);
+  }
+
+.stats-list-item:not(:hover) {
+    /* Thu nhỏ lại từ từ khi rê chuột ra */
+    transform: scale(1);
+}
+
+.stats-list-item {
+    /* Thiết lập kích thước ban đầu */
+    transition: transform 450ms;
+}
